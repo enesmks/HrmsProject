@@ -25,5 +25,6 @@ public class JobPositionManager implements JobPositionService{
 	public List<JobPosition> getAll() {
 		return this.jobPositionDao.findAll();
 	}
+	//
 
 }
